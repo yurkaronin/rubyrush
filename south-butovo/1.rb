@@ -9,10 +9,6 @@ if (Gem.win_platform?)
 end
 # /XXX
 
-if
-  check == 0
-  puts "Число чётное!"
-else
-  puts "АХТУНГ, ребята! Число #{num.to_s} не чётное!"
-end
-
+puts "Привет тебе, человек! Скажи своё имя, пожалуйста."
+name = gets
+puts "Приятно познакомиться, #{name.chomp} :)"
