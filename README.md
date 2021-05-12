@@ -1,7 +1,8 @@
 # rubyrush
 Учебные проекты и сохранения уроков по полочкам.
 
-###Шпаргалка по названиям папок
+### Шпаргалка по названиям папок
+
 1. magic-ball - 06: Пишем Волшебный шар, 07: Волшебный шар с приветом, 08: Волшебный шар с рандомным приветом https://github.com/yurkaronin/rubyrush/tree/main/magic-ball 
 ---
 2. comparison - 10: Вывести большее из чисел https://github.com/yurkaronin/rubyrush/tree/main/comparison
