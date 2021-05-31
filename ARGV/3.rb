@@ -1,5 +1,5 @@
 # XXX/ Этот код необходим только при использовании русских букв на Windows
-if Gem.win_platform?
+if (Gem.win_platform?)
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
   Encoding.default_internal = __ENCODING__
 
@@ -9,11 +9,10 @@ if Gem.win_platform?
 end
 # /XXX
 
-ARGV
+argument = ARGV[0]
 
-puts"в массиве: "
-puts ARGV
-puts "добавь еще один"
-ARGV << STDIN.gets
-puts"и теперь получается в массиве: "
-puts ARGV
+if (argument == "дурак")
+  puts "Сам ты дурак!"
+else
+  puts "Приветствую тебя, #{argument}"
+end
